@@ -1,0 +1,36 @@
+{
+  "name": "emoji-colors",
+  "version": "1.0.0",
+  "description": "Names of colors found in each emoji",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeke/emoji-colors.git"
+  },
+  "keywords": [
+    "emoji",
+    "colors",
+    "data",
+    "search"
+  ],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/emoji-colors/issues"
+  },
+  "homepage": "https://github.com/zeke/emoji-colors#readme",
+  "devDependencies": {
+    "async": "^2.0.0",
+    "color-namer": "^1.1.0",
+    "emojilib": "^2.0.2",
+    "get-image-colors": "^1.5.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "emoji-data": "^0.2.0"
+  }
+}
